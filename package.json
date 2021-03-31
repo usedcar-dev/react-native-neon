@@ -1,0 +1,28 @@
+{
+  "name": "react-native-neon",
+  "version": "1.0.0",
+  "description": "React Native package to take photos using custom camera or custom gallery in android.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaadidev/react-native-neon.git"
+  },
+  "nativePackage": true,
+  "author": "Cardekho",
+  "keywords": [
+    "react-native",
+    "react-native-neon",
+    "react",
+    "native",
+    "image",
+    "camera",
+    "gallery"
+  ],
+  "contributors": [
+    {
+      "name": "Cardekho",
+      "email": "gaadi.dev@gaadi.com"
+    }
+  ],
+  "license": "MIT"
+}
