@@ -21,6 +21,6 @@ android {
 dependencies {
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.google.code.gson:gson:2.3"
-    implementation 'com.github.gaadidev:Neon-android-native:v4.1.8'
+    implementation 'org.bitbucket.girnarsoftware:girnarsoft-neon:21.0.3.3'
     compile "com.facebook.react:react-native:+"
 }
