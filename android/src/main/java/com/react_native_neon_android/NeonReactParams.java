@@ -43,6 +43,7 @@ public class NeonReactParams {
     private Double longitudeInspectionForm;
     private boolean isDamageImage;
 
+
     public int getCompressBy() {
         return compressBy;
     }

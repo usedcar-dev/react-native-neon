@@ -609,7 +609,3 @@ public class NeonAndroid extends ReactContextBaseJavaModule {
                 .emit(eventName, getImageCollection(neonResponse));
     }
 }
-
-
-
-
