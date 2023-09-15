@@ -21,6 +21,6 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.google.code.gson:gson:2.3"
-    implementation 'com.github.usedcar-dev:ReactNativeNeonAndroid:v2.0.13.36'
+    implementation 'com.github.usedcar-dev:ReactNativeNeonAndroid:v2.0.13.37'
     implementation "com.facebook.react:react-native:+"
 }
