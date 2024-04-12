@@ -157,7 +157,7 @@ public class NeonAndroid extends ReactContextBaseJavaModule {
                             builder.setLocationRestrictive(params.isLocationRestrictive());
                             builder.sethideCameraButtonInNeutral(params.isHideCameraButtonInNeutral());
                             builder.setHideGalleryButtonInNeutral(params.isHideGalleryButtonInNeutral());
-                            // builder.setCompressBy(params.getCompressBy());
+                            builder.setCompressBy(params.getCompressBy());
                             builder.setFolderRestrictive(params.isFolderRestrictive());
                             builder.setVccIdAvailable(params.getVccId());
                             if(params.getFolderName() != null && !params.getFolderName().equals("")){
@@ -248,7 +248,7 @@ public class NeonAndroid extends ReactContextBaseJavaModule {
                     builder.setLocationRestrictive(params.isLocationRestrictive());
                     builder.sethideCameraButtonInNeutral(params.isHideCameraButtonInNeutral());
                     builder.setHideGalleryButtonInNeutral(params.isHideGalleryButtonInNeutral());
-                    //builder.setCompressBy(params.getCompressBy());
+                    builder.setCompressBy(params.getCompressBy());
                     builder.setFolderRestrictive(params.isFolderRestrictive());
                     builder.setVccIdAvailable(params.getVccId());
                     if(params.getFolderName() != null && !params.getFolderName().equals("")){
@@ -316,7 +316,7 @@ public class NeonAndroid extends ReactContextBaseJavaModule {
                             builder.setLocationRestrictive(params.isLocationRestrictive());
                             builder.sethideCameraButtonInNeutral(params.isHideCameraButtonInNeutral());
                             builder.setHideGalleryButtonInNeutral(params.isHideGalleryButtonInNeutral());
-                            //builder.setCompressBy(params.getCompressBy());
+                            builder.setCompressBy(params.getCompressBy());
                             Log.d(TAG, "getCustomParameters: "+params.getCompressBy());
                             builder.setFolderRestrictive(params.isFolderRestrictive());
                             builder.setVccIdAvailable(params.getVccId());
@@ -499,7 +499,7 @@ public class NeonAndroid extends ReactContextBaseJavaModule {
                     builder.setLocationRestrictive(params.isLocationRestrictive());
                     builder.sethideCameraButtonInNeutral(params.isHideCameraButtonInNeutral());
                     builder.setHideGalleryButtonInNeutral(params.isHideGalleryButtonInNeutral());
-                    //builder.setCompressBy(params.getCompressBy());
+                    builder.setCompressBy(params.getCompressBy());
                     builder.setFolderRestrictive(params.isFolderRestrictive());
                     builder.setVccIdAvailable(params.getVccId());
                     if(params.getFolderName() != null && !params.getFolderName().equals("")){
